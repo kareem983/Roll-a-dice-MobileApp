@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Roll a dice</string>
+    <string name="roll_result">الناتج:</string>
+    <string name="player1_roll">ألقى</string>
+</resources>

@@ -17,10 +17,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Button RollButton=(Button)findViewById(R.id.roll_btn);
         RollButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
+                //get the Random number
                 int MinNumber=1;
                 int MaxNumber=6;
                 int range=MaxNumber-MinNumber+1;
@@ -28,12 +30,13 @@ public class MainActivity extends AppCompatActivity {
                 //sound Efect
                 MediaPlayer RollSoundEfect = MediaPlayer.create(MainActivity.this, R.raw.roll);
                 RollSoundEfect.start();
-                //
+                //Movable Dice image view
                 ImageView MovableDice = (ImageView) findViewById(R.id.Movable_imageView);
                 MovableDice.setImageResource(R.drawable.running);
                 AnimationDrawable running = (AnimationDrawable) MovableDice.getDrawable();
                 running.start();
 
+                //Display the result Dice number
                 if(RandomNumber==1) {
                     ImageView num1 = (ImageView) findViewById(R.id.Result_imageView);
                     num1.setImageResource(R.drawable.number1);

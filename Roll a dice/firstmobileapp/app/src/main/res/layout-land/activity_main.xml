@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="120dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <TextView
@@ -56,7 +56,7 @@
         android:id="@+id/Movable_imageView"
         android:layout_width="match_parent"
         android:layout_height="89dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="120dp"
         android:scaleType="center"
         app:srcCompat="@drawable/dice6"/>
 
@@ -64,8 +64,8 @@
         android:id="@+id/Movable_textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="350dp"
-        android:text="_____________________________"
+        android:layout_marginTop="170dp"
+        android:text="_________________________________________________________"
         android:textColor="#F00"
         android:textSize="30dp"
         android:scaleType="center"/>
@@ -74,7 +74,7 @@
         android:id="@+id/roll_btn"
         android:layout_width="match_parent"
         android:layout_height="65dp"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="250dp"
         android:background="#F4E689"
         android:text="@string/player1_roll"
         android:textColor="#00f"

@@ -1,5 +1,23 @@
 <resources>
+    <!--Main layout-->
     <string name="app_name">Roll a dice</string>
     <string name="roll_result">the result:</string>
-    <string name="player1_roll">Roll</string>
+    <string name="player_roll_btn">Roll</string>
+
+    <!--history layout-->
+    <string name="historyHeader">the latest ten rolling:</string>
+    <string name="first">the first roll:</string>
+    <string name="second">the second roll:</string>
+    <string name="third">the third roll:</string>
+    <string name="fourth">the fourth roll:</string>
+    <string name="fifth">the fifth roll:</string>
+    <string name="sixth">the sixth roll:</string>
+    <string name="seventh">the seventh roll:</string>
+    <string name="eighth">the eighth roll:</string>
+    <string name="ninth">the ninth roll:</string>
+    <string name="tenth">the tenth roll(Last):</string>
+    <string name="result">none</string>
+    <string name="history">History</string>
+
+
 </resources>

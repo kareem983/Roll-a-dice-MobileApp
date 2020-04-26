@@ -8,10 +8,11 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:layout_marginTop="40dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true">
 
 
         <TextView
@@ -19,6 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="64dp"
             android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
             android:text="@string/roll_result"
             android:textColor="#FFFFFF"
             android:textSize="34dp" />
@@ -34,8 +36,8 @@
 
             <TextView
                 android:id="@+id/Result_textView"
-                android:layout_width="152dp"
-                android:layout_height="120dp"
+                android:layout_width="112dp"
+                android:layout_height="115dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/box"
                 android:scaleType="center" />
@@ -63,12 +65,12 @@
     <TextView
         android:id="@+id/Movable_textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="350dp"
-        android:text="_____________________________"
+        android:layout_height="90dp"
+        android:layout_marginTop="297dp"
+        android:background="@drawable/box2"
         android:textColor="#F00"
         android:textSize="30dp"
-        android:scaleType="center"/>
+        android:layout_gravity="center"/>
 
 
     <Button
@@ -90,7 +92,6 @@
         android:background="#DDD"
         android:text="@string/history"
         android:textColor="#00f"
-        android:textSize="20dp"
-        />
+        android:textSize="20dp" />
 
 </RelativeLayout>

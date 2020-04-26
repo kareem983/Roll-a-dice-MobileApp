@@ -4,20 +4,10 @@
     <string name="app_name">Roll a dice</string>
     <string name="roll_result">الناتج:</string>
     <string name="player_roll_btn">ألقى</string>
+    <string name="history">المذكرة</string>
 
     <!--history layout-->
-    <string name="historyHeader">اخر عشر قذفات:</string>
-    <string name="first">القذفة الاولى:</string>
-    <string name="second">القذفة الثانية:</string>
-    <string name="third">القذفة الثالثة:</string>
-    <string name="fourth">القذفة الرابعة:</string>
-    <string name="fifth">القذفة الخامسة:</string>
-    <string name="sixth">القذفة السادسة:</string>
-    <string name="seventh">القذفة السابعة:</string>
-    <string name="eighth">القذفة الثامنة:</string>
-    <string name="ninth">القذفة التاسعة:</string>
-    <string name="tenth">القذفة العاشرة:</string>
+    <string name="historyHeader">اخر عشر ركلات:</string>
     <string name="result">لا شى</string>
-    <string name="history">المذكرة</string>
 
 </resources>

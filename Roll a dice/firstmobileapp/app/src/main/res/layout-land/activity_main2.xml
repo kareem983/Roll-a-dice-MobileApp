@@ -14,20 +14,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true">
 
 
             <TextView
                 android:id="@+id/HeaderText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
+                android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/historyHeader"
                 android:textColor="#FFFFFF"
@@ -37,278 +32,295 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="-65dp">
+                android:layout_marginTop="-30dp"
+                android:orientation="vertical"
+                android:layout_gravity="center">
 
                 <TextView
-                    android:id="@+id/textt1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="80dp"
-                    android:text="@string/tenth"
-                    android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:id="@+id/x1"
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/box"
+                    android:layout_centerHorizontal="true"/>
 
                 <TextView
                     android:id="@+id/text1"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="65dp"
-                    android:layout_marginTop="80dp"
+                    android:layout_marginTop="-45dp"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="90dp"
                     android:text="@string/result"
                     android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:textSize="25dp"
+                    android:layout_centerHorizontal="true" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-110dp"
-                android:orientation="horizontal">
+                android:layout_marginTop="-30dp"
+                android:orientation="vertical"
+                android:layout_gravity="center">
 
                 <TextView
-                    android:id="@+id/textt2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="140dp"
-                    android:text="@string/ninth"
-                    android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:id="@+id/x2"
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/box"
+                    android:layout_centerHorizontal="true"/>
 
                 <TextView
                     android:id="@+id/text2"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="132dp"
-                    android:layout_marginTop="140dp"
+                    android:layout_marginTop="-45dp"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="90dp"
                     android:text="@string/result"
                     android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:textSize="25dp"
+                    android:layout_centerHorizontal="true" />
 
             </LinearLayout>
-
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-165dp"
-                android:orientation="horizontal">
+                android:layout_marginTop="-30dp"
+                android:orientation="vertical"
+                android:layout_gravity="center">
 
                 <TextView
-                    android:id="@+id/textt3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="200dp"
-                    android:text="@string/eighth"
-                    android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:id="@+id/x3"
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/box"
+                    android:layout_centerHorizontal="true"/>
 
                 <TextView
                     android:id="@+id/text3"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="120dp"
-                    android:layout_marginTop="200dp"
+                    android:layout_marginTop="-45dp"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="90dp"
                     android:text="@string/result"
                     android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:textSize="25dp"
+                    android:layout_centerHorizontal="true" />
 
             </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-220dp"
-                android:orientation="horizontal">
+                android:layout_marginTop="-30dp"
+                android:orientation="vertical"
+                android:layout_gravity="center">
 
                 <TextView
-                    android:id="@+id/textt4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="260dp"
-                    android:text="@string/seventh"
-                    android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:id="@+id/x4"
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/box"
+                    android:layout_centerHorizontal="true"/>
 
                 <TextView
                     android:id="@+id/text4"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="100dp"
-                    android:layout_marginTop="260dp"
+                    android:layout_marginTop="-45dp"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="90dp"
                     android:text="@string/result"
                     android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:textSize="25dp"
+                    android:layout_centerHorizontal="true" />
 
             </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-275dp"
-                android:orientation="horizontal">
+                android:layout_marginTop="-30dp"
+                android:orientation="vertical"
+                android:layout_gravity="center">
 
                 <TextView
-                    android:id="@+id/textt5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="320dp"
-                    android:text="@string/sixth"
-                    android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:id="@+id/x5"
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/box"
+                    android:layout_centerHorizontal="true"/>
 
                 <TextView
                     android:id="@+id/text5"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="135dp"
-                    android:layout_marginTop="320dp"
+                    android:layout_marginTop="-45dp"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="90dp"
                     android:text="@string/result"
                     android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:textSize="25dp"
+                    android:layout_centerHorizontal="true" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-330dp"
-                android:orientation="horizontal">
+                android:layout_marginTop="-30dp"
+                android:orientation="vertical"
+                android:layout_gravity="center">
 
                 <TextView
-                    android:id="@+id/textt6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="380dp"
-                    android:text="@string/fifth"
-                    android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:id="@+id/x6"
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/box"
+                    android:layout_centerHorizontal="true"/>
 
                 <TextView
                     android:id="@+id/text6"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="142dp"
-                    android:layout_marginTop="380dp"
+                    android:layout_marginTop="-45dp"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="90dp"
                     android:text="@string/result"
                     android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:textSize="25dp"
+                    android:layout_centerHorizontal="true" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-385dp"
-                android:orientation="horizontal">
+                android:layout_marginTop="-30dp"
+                android:orientation="vertical"
+                android:layout_gravity="center">
 
                 <TextView
-                    android:id="@+id/textt7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="440dp"
-                    android:text="@string/fourth"
-                    android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:id="@+id/x7"
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/box"
+                    android:layout_centerHorizontal="true"/>
 
                 <TextView
                     android:id="@+id/text7"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="120dp"
-                    android:layout_marginTop="440dp"
+                    android:layout_marginTop="-45dp"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="90dp"
                     android:text="@string/result"
                     android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:textSize="25dp"
+                    android:layout_centerHorizontal="true" />
+
             </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-440dp"
-                android:orientation="horizontal">
+                android:layout_marginTop="-30dp"
+                android:orientation="vertical"
+                android:layout_gravity="center">
 
                 <TextView
-                    android:id="@+id/textt8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="500dp"
-                    android:text="@string/third"
-                    android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:id="@+id/x8"
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/box"
+                    android:layout_centerHorizontal="true"/>
 
                 <TextView
                     android:id="@+id/text8"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="138dp"
-                    android:layout_marginTop="500dp"
+                    android:layout_marginTop="-45dp"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="90dp"
                     android:text="@string/result"
                     android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:textSize="25dp"
+                    android:layout_centerHorizontal="true" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-495dp"
-                android:orientation="horizontal">
+                android:layout_marginTop="-30dp"
+                android:orientation="vertical"
+                android:layout_gravity="center">
 
                 <TextView
-                    android:id="@+id/textt9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="560dp"
-                    android:text="@string/second"
-                    android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:id="@+id/x9"
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/box"
+                    android:layout_centerHorizontal="true"/>
 
                 <TextView
                     android:id="@+id/text9"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="108dp"
-                    android:layout_marginTop="560dp"
+                    android:layout_marginTop="-45dp"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="90dp"
                     android:text="@string/result"
                     android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:textSize="25dp"
+                    android:layout_centerHorizontal="true" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-550dp"
-                android:layout_marginBottom="50dp"
-                android:orientation="horizontal">
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical"
+                android:layout_gravity="center">
 
                 <TextView
-                    android:id="@+id/textt10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="620dp"
-                    android:text="@string/first"
-                    android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:id="@+id/x10"
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/box"
+                    android:layout_centerHorizontal="true"/>
 
                 <TextView
                     android:id="@+id/text10"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="145dp"
-                    android:layout_marginTop="620dp"
+                    android:layout_marginTop="-45dp"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="90dp"
                     android:text="@string/result"
                     android:textColor="#F4E689"
-                    android:textSize="25dp" />
+                    android:textSize="25dp"
+                    android:layout_centerHorizontal="true" />
+
             </LinearLayout>
 
         </LinearLayout>

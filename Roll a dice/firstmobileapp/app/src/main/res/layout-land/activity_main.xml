@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="120dp"
-        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
         android:orientation="horizontal">
 
         <TextView
@@ -34,8 +34,8 @@
 
             <TextView
                 android:id="@+id/Result_textView"
-                android:layout_width="152dp"
-                android:layout_height="120dp"
+                android:layout_width="112dp"
+                android:layout_height="100dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/box"
                 android:scaleType="center" />
@@ -56,30 +56,32 @@
         android:id="@+id/Movable_imageView"
         android:layout_width="match_parent"
         android:layout_height="89dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="125dp"
         android:scaleType="center"
         app:srcCompat="@drawable/dice6"/>
 
     <TextView
         android:id="@+id/Movable_textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="170dp"
-        android:text="_________________________________________________________"
+        android:layout_height="90dp"
+        android:layout_marginTop="122dp"
+        android:background="@drawable/box2"
         android:textColor="#F00"
         android:textSize="30dp"
-        android:scaleType="center"/>
+        android:layout_gravity="center"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="10dp">
+        android:orientation="horizontal">
+
     <Button
         android:id="@+id/roll_btn"
         android:layout_width="300dp"
         android:layout_height="65dp"
         android:layout_marginTop="250dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
         android:background="#F4E689"
         android:text="@string/player_roll_btn"
         android:textColor="#00f"
@@ -91,12 +93,12 @@
         android:layout_width="300dp"
         android:layout_height="65dp"
         android:layout_marginTop="250dp"
-        android:layout_marginLeft="130dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
         android:background="#DDD"
         android:text="@string/history"
         android:textColor="#00f"
-        android:textSize="20dp"
-        />
+        android:textSize="20dp" />
 
     </LinearLayout>
 

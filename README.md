@@ -14,3 +14,4 @@ simple android dice app. the project enable the user to roll the dice with anima
 
 ![3](https://user-images.githubusercontent.com/52586356/105900845-44d81380-6025-11eb-84b0-70a407c56096.jpg)
 
+ 
